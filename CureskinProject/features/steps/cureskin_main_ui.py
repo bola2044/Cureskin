@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
-# from time import sleep
+
 
 PROD_COUNT = (By.CSS_SELECTOR, 'div.product-count')
 PRODUCT_TITLE = (By.CSS_SELECTOR, 'div.product__title')

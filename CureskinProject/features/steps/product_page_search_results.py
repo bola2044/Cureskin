@@ -3,7 +3,7 @@ from behave import given, when, then
 
 PROD_COUNT = (By.CSS_SELECTOR, 'div.product-count')
 PRODUCT_TITLE = (By.CSS_SELECTOR, 'div.product__title')
-PRODUCT_IMG = (By.ID, '[span#ProductImages]')
+PRODUCT_IMG = (By.ID, 'span#ProductImages')
 PRODUCT_PRICE = (By.ID, 'div#price-template--17185951023421__main.no-js-hidden')
 
 
