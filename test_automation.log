@@ -1,0 +1,21 @@
+2023-07-22 19:54:56,638 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-22 19:55:04,031 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-22 19:55:04,944 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-22 19:55:09,341 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-22 19:55:09,605 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-22 19:55:11,449 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-22 19:55:42,554 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-22 19:55:49,807 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-22 19:55:50,815 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-22 19:55:53,170 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-22 19:55:53,680 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-22 19:55:55,252 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-22 19:56:02,239 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-22 19:56:03,099 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-22 19:56:06,788 - support.logger - INFO - Started step: <then "Select shop all to open page">
+2023-07-22 19:58:58,195 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-22 19:59:26,295 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-22 19:59:29,438 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-22 19:59:32,144 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-22 19:59:32,356 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-22 19:59:33,967 - support.logger - INFO - Started step: <then "Verify first results have a price">

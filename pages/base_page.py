@@ -1,16 +1,18 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# from support.logger import logger
 
 class Page:
 
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 15)
-        self.base_url = 'https://shop.cureskin.com/'
+        self.base_url =  'https://shop.cureskin.com/'
 
     def open_url(self, url=''):
         print(f'Opening URL: {url}')
+        # logger.info(f'Opening URL: {url}')
         self.driver.get(url)
 
     def find_element(self, *locator):
@@ -20,6 +22,7 @@ class Page:
         return self.driver.find_elements(*locator)
 
     def click(self, *locator):
+        # logger.info('Clicking on {}, {}'.format(*locator))
         self.driver.find_element(*locator).click()
 
     def input_text(self, text, *locator):
@@ -27,17 +30,17 @@ class Page:
         e.clear()
         e.send_keys(text)
         print(f'Inputting text: {text}')
-
+        # logger.info(f'Inputting text: {text}')
 
     def wait_for_element_click(self, *locator):
-        e = self.wait.until(EC.element_to_be_clickable(locator), message=f'Element not clickable by {locator}')
+        e = self.wait.until(EC.element_to_be_clickable(*locator), message=f'Element not clickable by {locator}')
         e.click()
 
     def wait_for_element_disappear(self, *locator):
-        self.wait.until(EC.invisibility_of_element(locator))
+        self.wait.until(EC.invisibility_of_element(*locator))
 
     def wait_for_element_appear(self, *locator):
-        return self.wait.until(EC.presence_of_element_located(locator))
+        return self.wait.until(EC.presence_of_element_located(*locator))
 
     def verify_element_text(self, expected_text, *locator):
         actual_text = self.driver.find_element(*locator).text
