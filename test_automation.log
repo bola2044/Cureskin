@@ -19,3 +19,152 @@
 2023-07-22 19:59:32,144 - support.logger - INFO - Started step: <then "Verify first results have name">
 2023-07-22 19:59:32,356 - support.logger - INFO - Started step: <then "Verify first results have an image">
 2023-07-22 19:59:33,967 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-22 21:28:18,134 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-22 21:28:46,676 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-22 21:28:49,595 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-22 21:28:52,255 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-22 21:28:52,483 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-22 21:28:54,119 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 15:11:41,088 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 15:12:10,866 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 15:12:14,291 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 15:12:15,128 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 15:12:15,335 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 15:12:20,574 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 16:06:22,097 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-24 16:06:26,272 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-24 16:07:17,595 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-24 16:07:19,877 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 16:07:21,216 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 16:07:21,916 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-24 16:07:21,937 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-24 16:07:22,055 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-24 16:07:23,665 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 16:07:24,698 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-24 16:07:24,705 - support.logger - INFO - Started step: <then "Select shop all to open page">
+2023-07-24 16:07:35,960 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 16:07:38,143 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 16:07:39,064 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 16:07:39,397 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 16:07:39,426 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 16:07:39,533 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 16:09:17,445 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-24 16:09:38,177 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 16:09:42,423 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 16:09:46,731 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-24 16:09:47,132 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-24 16:09:48,569 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-24 16:09:54,591 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 16:09:57,166 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-24 16:09:57,692 - support.logger - INFO - Started step: <then "Select shop all to open page">
+2023-07-24 16:13:42,934 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 16:14:02,947 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 16:14:07,458 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 16:14:13,894 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 16:14:14,368 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 16:14:18,127 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 22:19:28,062 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 22:19:49,033 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 22:19:53,435 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 22:19:59,333 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 22:19:59,650 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 22:20:02,457 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 23:11:26,716 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 23:11:30,767 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 23:11:32,260 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 23:11:32,855 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 23:11:32,887 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 23:11:32,989 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 23:15:35,797 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 23:15:39,710 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 23:15:40,999 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 23:15:41,638 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 23:15:41,661 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 23:15:41,768 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 23:29:38,915 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 23:29:43,058 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 23:29:44,541 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 23:29:45,116 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 23:29:45,124 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 23:29:45,235 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-24 23:48:08,286 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-24 23:48:13,203 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-24 23:48:14,614 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-24 23:48:15,199 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-24 23:48:15,232 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-24 23:48:15,329 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-25 13:15:35,240 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-25 13:15:39,320 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:15:40,619 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:15:41,231 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-25 13:15:41,254 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-25 13:15:41,363 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-25 13:21:19,661 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-25 13:21:23,424 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:21:24,803 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:21:25,295 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-25 13:21:25,332 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-25 13:21:25,454 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-25 13:21:27,074 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:21:27,872 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-25 13:21:27,878 - support.logger - INFO - Started step: <then "Select shop all to open page">
+2023-07-25 13:25:03,300 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-25 13:25:05,902 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:25:07,136 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:25:07,670 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-25 13:25:07,683 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-25 13:25:07,790 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-25 13:25:10,159 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:25:10,853 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-25 13:25:10,859 - support.logger - INFO - Started step: <then "Select shop all to open page">
+2023-07-25 13:25:36,719 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-25 13:25:38,977 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:25:39,779 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:25:40,079 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-25 13:25:40,135 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-25 13:25:40,245 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-25 13:45:55,609 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-25 13:46:00,222 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:46:01,403 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:46:01,937 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-25 13:46:01,953 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-25 13:46:02,443 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-25 13:46:05,083 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:46:05,781 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-25 13:46:05,788 - support.logger - INFO - Started step: <then "Select shop all to open page">
+2023-07-25 13:46:05,882 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-25 13:46:07,465 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:46:08,270 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:46:08,590 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-25 13:46:08,627 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-25 13:46:08,736 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-25 13:48:47,543 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-25 13:48:49,973 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:48:51,073 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:48:51,562 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-25 13:48:51,601 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-25 13:48:51,693 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-25 13:52:41,328 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-25 13:52:45,175 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:52:46,410 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:52:47,018 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-25 13:52:47,054 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-25 13:52:47,357 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-25 13:52:49,469 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:52:50,278 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-25 13:52:50,289 - support.logger - INFO - Started step: <then "Select shop all to open page">
+2023-07-25 13:52:50,388 - support.logger - INFO - Started scenario: Verify first results have name, image and price
+2023-07-25 13:52:51,978 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 13:52:52,708 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 13:52:53,002 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-25 13:52:53,040 - support.logger - INFO - Started step: <then "Verify first results have an image">
+2023-07-25 13:52:53,149 - support.logger - INFO - Started step: <then "Verify first results have a price">
+2023-07-25 14:18:38,655 - support.logger - INFO - Started scenario: User can open shop page
+2023-07-25 14:18:42,760 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 14:18:43,971 - support.logger - INFO - Started step: <given "Open shop all">
+2023-07-25 14:18:44,510 - support.logger - INFO - Started step: <then "Verify user can see 19 products for cure">
+2023-07-25 14:18:44,519 - support.logger - ERROR - Step failed: <then "Verify user can see 19 products for cure">
+2023-07-25 14:18:44,830 - support.logger - INFO - Started scenario: User can search shop all
+2023-07-25 14:18:51,422 - support.logger - INFO - Started step: <given "Open cure skin main page">
+2023-07-25 14:18:52,317 - support.logger - INFO - Started step: <when "User click search button">
+2023-07-25 14:18:52,325 - support.logger - INFO - Started step: <then "Select shop all to open page">
