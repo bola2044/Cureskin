@@ -4,7 +4,7 @@ from behave import given, when, then
 
 PROD_COUNT = (By.CSS_SELECTOR, 'div.product-count')
 PRODUCT_TITLE = (By.CSS_SELECTOR, 'div.product__title')
-
+UI_COMP = (By.CSS_SELECTOR, 'div.elementor elementor-30964')
 
 @given('open cure skin main page')
 def open_main_page(context):
@@ -14,6 +14,8 @@ def open_main_page(context):
 @given('open shop all')
 def shop_all(context):
     context.app.product_page.shop_all()
+
+
 
 
 

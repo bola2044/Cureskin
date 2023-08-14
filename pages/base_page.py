@@ -8,7 +8,7 @@ class Page:
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 15)
-        self.base_url =  'https://shop.cureskin.com/'
+        self.base_url = 'https://shop.cureskin.com/'
 
     def open_url(self, url=''):
         print(f'Opening URL: {url}')

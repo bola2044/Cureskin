@@ -8,6 +8,7 @@ class ProductPage(Page):
     PRODUCT_TITLE = (By.CSS_SELECTOR, 'div.card-information__wrapper')
     PRODUCT_IMG = (By.CSS_SELECTOR, 'img.motion-reduce')
     PRODUCT_PRICE = (By.CSS_SELECTOR, 'div.price__sale')
+    UI_COMP = (By.CSS_SELECTOR, 'div.elementor elementor-30964')
 
     def get_product_name(self):
         return self.find_element(*self. FIRST_RESULTS)
@@ -21,6 +22,7 @@ class ProductPage(Page):
 
     def shop_all(self):
         self.open_url('https://shop.cureskin.com/collections/all')
+
 
     def verify_prod_count(self, expected_count):
         self.driver.find_element({expected_count}, *self.PROD_COUNT)

@@ -28,9 +28,9 @@ def browser_init(context, test_name):
     :param test_name: scenario.name
     """
     ####### GOOGLE CHROME ######################
-    # service = Service()
-    # options = webdriver.ChromeOptions()
-    # context.driver = webdriver.Chrome(service=service, options=options)
+    service = Service()
+    options = webdriver.ChromeOptions()
+    context.driver = webdriver.Chrome(service=service, options=options)
     ############################################
 
     ######## HEADLESS MODE ########################
@@ -74,14 +74,16 @@ def browser_init(context, test_name):
 
 
    ##################### MOBILE EMULATION ############################
-    service = Service()
-    options = webdriver.ChromeOptions()
-    mobile_emulation = { "deviceName": "Nexus 5X" }
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
-    context.driver = webdriver.Chrome(service=service,options=options)
-    context.driver.get('https://shop.cureskin.com/')
-
+    # service = Service()
+    # options = webdriver.ChromeOptions()
+    # # mobile_emulation = { "deviceName": "Samsung Galaxy S8+" }
+    # mobile_emulation = {
+    #     "deviceMetrics": {"width": 360, "height": 740 },
+    #                  "clientHints": {"platform": "Android", "mobile": True}}
+    # chrome_options = webdriver.ChromeOptions()
+    # chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
+    # context.driver = webdriver.Chrome(service=service,options=options)
+    
 ##################################################################################
 
     context.driver.maximize_window()
